@@ -47,6 +47,7 @@ a:focus {
 
 .tm-font-big {
   font-size: 1.25rem;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 .tm-btn-primary {
@@ -79,13 +80,13 @@ a:focus {
 
 .navbar-brand {
   color: white;
-  font-size: 1.4rem;
+  font-size: 2.0rem;
   font-weight: bold;
 }
 
 .navbar-brand:hover,
 .tm-navbar.scroll .navbar-brand:hover {
-  color: #3496d8;
+  color: #1990df;
 }
 
 .tm-navbar.scroll .navbar-brand {
@@ -175,8 +176,8 @@ a:focus {
   margin-top: -90px;
 }
 
-.tm-hero-title {
-  font-size: 3.5rem;
+.NameTitle {
+  font-size: 5.0rem;
   text-shadow: 2px 2px 2px #333;
 }
 
