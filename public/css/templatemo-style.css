@@ -186,7 +186,7 @@ a:focus {
   text-shadow: 2px 2px 2px #333;
 }
 
-.arrowdown {
+.tm-intro-next {
   position: absolute;
   bottom: 100px;
   left: 0;
