@@ -7,6 +7,7 @@ html {
 }
 
 body {
+  background-color: #f3efe0;
   color: #8f8f8f;
   margin: 0;
   padding: 0;
@@ -287,6 +288,10 @@ ul {
 }
 .top {
   padding-top: 90px;
+}
+
+img {
+  border: 2px solid #555;
 }
 
 /* Work */
