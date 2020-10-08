@@ -240,7 +240,7 @@ a:focus {
 
 /* Coursework */
 .wrapper {
-  margin-top: 50px;
+  margin-top: 75px;
   padding: 4.2em 0 1em 0;
   position: relative;
 }
@@ -281,6 +281,9 @@ ul {
 }
 .bottom2 {
   padding-bottom: 25px;
+}
+.bottom3{
+  padding-bottom: 100px;
 }
 .top {
   padding-top: 90px;
@@ -467,7 +470,7 @@ figure.effect-honey:hover h2 i {
 
 #contact {
   color: white;
-  background-image: url(../img/the-town-bg-02.jpg);
+  background-image: url(../img/stars.jpg);
   background-position: center;
   background-repeat: no-repeat;
   min-height: 850px;
