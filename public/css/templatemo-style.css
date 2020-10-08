@@ -270,13 +270,20 @@ a:focus {
   width: 66%;
 }
 
-ul {
+.ul-2 {
   list-style-position: inside;
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
+ul{
+  display: inline-block;
+  list-style-position: inside;
+  list-style-type: square;
+  margin: 0;
+  padding: 3;
+}
 .bottom {
   margin-bottom: 40px;
 }
