@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Michael Le">
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Michael Le</title>
     <link rel="stylesheet" href="fontawesome-5.5/css/all.min.css" />
@@ -37,10 +38,10 @@
                   <a class="nav-link tm-nav-link" href="#About-Me">About Me</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link tm-nav-link" href="#work">Our Work</a>
+                  <a class="nav-link tm-nav-link" href="#work">My Work</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link tm-nav-link" href="#contact">Contact Us</a>
+                  <a class="nav-link tm-nav-link" href="#contact">Contact Me</a>
               </li>                    
             </ul>
           </div>        
@@ -64,6 +65,7 @@
       </div>      
     </section>
 
+    <!-- About Me Section -->
     <section id="About-Me" class="spacingtop">
       <div class="container">
         <div class="row">
@@ -94,7 +96,41 @@
           </div>
         </div>
 
-        <div class="row spacingtop">
+      <!-- Skills and Experience Section -->
+      <section class="wrapper style1">
+        <div class="inner">
+          <header class="text-center">
+            <h2 class="tm-text-primary mb-4 tm-section-title">Education and Skills</h2>
+          </header>
+          <div class="flex flex-2">
+            <div class="col col2">
+              <h4><strong>Student at University of California Irvine</strong></h4>
+              <p class="mb-4 tm-intro-text">
+                <font color="gray">
+                  I am studying Software Engineering at the University of California Irvine. Here I have taken many courses that correlate
+                  to programming, software designing/testing, analysis of algorithms and several more technical courses that help refine
+                  my progamming skills.
+                </font>
+              </p>
+              <br>
+              <h4><strong>Technical Skills</strong></h4>
+              <p class="mb-4 tm-intro-text">
+                <font color="gray">
+                  I began my programming journey after high school. I never realized I had a passion for computer science until I took my first programming class.
+                  Since then, I've learned how to program in:
+                  <ul>
+                    <li><strong>Proficient:</strong> Python, C++, Linux</li>
+                    <li><strong>Familar With:</strong> HTML, CSS, JavaScript, Git, Java, Jupyter Notebooks</li>
+                  </ul>
+                </font>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+        <!-- My Projects Section-->
+        <div class="row">
           <div class="col-lg-4">
             <i class="fas fa-4x fa-bus text-center tm-icon"></i>
             <h4 class="text-center tm-text-primary mb-4">Curabitur at elit eu risus</h4>
@@ -296,7 +332,7 @@
       }
 
       // Parallax function
-      // Adapted based on https://codepen.io/roborich/pen/wpAsm        
+          
       var background_image_parallax = function($object, multiplier, forceSet){
         multiplier = typeof multiplier !== 'undefined' ? multiplier : 0.5;
         multiplier = 1 - multiplier;
@@ -356,7 +392,7 @@
         $('#tmNav').singlePageNav();        
         
         // Add smooth scrolling to all links
-        // https://www.w3schools.com/howto/howto_css_smooth_scroll.asp
+        
         $("a").on('click', function(event) {
           if (this.hash !== "") {
             event.preventDefault();

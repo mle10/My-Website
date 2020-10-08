@@ -1,9 +1,5 @@
 /*
-
-The Town
-
-https://templatemo.com/tm-525-the-town
-
+Michael Le
 */
 
 html {
@@ -239,6 +235,45 @@ a:focus {
   display: block;
   margin-bottom: 55px;
   color: #3496d8;
+}
+
+
+/* Coursework */
+.wrapper {
+  margin-top: 50px;
+  padding: 4em 0 4em 0;
+  position: relative;
+}
+
+.wrapper.style1 {
+  color:gray;
+}
+
+.wrapper.inner {
+  margin: 0 auto;
+  position: relative;
+  z-index: 99;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flex.flex-2 {
+  align-items: stretch;
+}
+
+.flex.flex-2 .col{
+  width: 66%;
+}
+
+ul {
+  list-style-position: inside;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 /* Work */
