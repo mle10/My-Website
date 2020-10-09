@@ -183,6 +183,10 @@ a:focus {
   text-shadow: 2px 2px 2px #333;
 }
 
+.centerit {
+  padding-top: 10px;
+  text-align: center;
+}
 .tm-intro-next {
   position: absolute;
   bottom: 100px;
@@ -568,6 +572,7 @@ figure.effect-honey:hover h2 i {
   color: #3496d8;
   text-decoration: none;
 }
+
 
 p {
   line-height: 1.9;
